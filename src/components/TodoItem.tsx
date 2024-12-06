@@ -12,7 +12,7 @@ export default function TodoItem({
   title,
   complete,
   updateTodo,
-}: TodoItemProps): JSX.Element {
+}: TodoItemProps) {
   // Returning null means the component won't render anything
   return (
     <li className="flex justify-start items-center border-b border-slate-700 py-2">

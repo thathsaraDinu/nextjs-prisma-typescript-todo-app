@@ -22,7 +22,7 @@ export default async function Home() {
         <h1 className="text-2x.5">Get It Done</h1>
         <Link
           className="px-2 py-1 border border-slate-100 rounded hover:bg-slate-700 focus-within:bg-slate-700 outline-none"
-          href="/new"
+          href="/newtodo"
         >
           New
         </Link>

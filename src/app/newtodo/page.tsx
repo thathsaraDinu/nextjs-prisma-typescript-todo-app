@@ -17,12 +17,6 @@ export default function Home() {
     <div>
       <header className="flex justify-between items-center mb-4">
         <h1 className="text-2x.5">GetItDone</h1>
-        <Link
-          className="px-2 py-1 border border-slate-100 rounded hover:bg-slate-700 focus-within:bg-slate-700 outline-none"
-          href="/new"
-        >
-          New
-        </Link>
       </header>
       <form action={createTodo} className="flex flex-col gap-2">
         <label htmlFor="title" className="text-2xl">
